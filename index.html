@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>최준영 | Agent Coding Tech Leader</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Sudapapa.dev</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#career">Career</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div style="display: flex; gap: 1rem; align-items: center;">
+            <a href="download/최준영_포트폴리오.pdf" class="resume-download" download>
+                <span class="download-icon">📄</span>
+                <span class="download-text">이력서</span>
+            </a>
+            <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </header>
+
+    <!-- Intro Section -->
+    <section class="intro">
+        <div class="intro-content">
+            <div class="intro-icon">🤖</div>
+            <h1 class="intro-title">Portfolio</h1>
+            <div class="intro-name">최 준 영</div>
+            <div class="intro-box">
+                <div class="intro-box-label">AI GENERATED PORTFOLIO</div>
+                <div class="intro-box-text">
+                    AI 분야 이력서에 맞게,<br>
+                    <strong>이력서는 자기소개를 제외하고<br>전부 AI로 제작</strong>되었습니다.
+                </div>
+            </div>
+            <div class="intro-bottom">
+                <div class="intro-target">한미반도체 AI연구본부 SW Development 지원</div>
+                <div class="intro-badges">
+                    <span class="intro-badge claude">Claude AI</span>
+                    <span class="intro-badge agent">Agent Coding</span>
+                </div>
+            </div>
+        </div>
+        <div class="intro-scroll">
+            <span>Scroll</span>
+            <div class="scroll-mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section (Hero + About 통합) -->
+    <section id="about" class="about-hero">
+        <div class="about-hero-header">
+            <h1 class="about-hero-title">About Me</h1>
+        </div>
+        <div class="about-grid">
+            <div class="about-image">
+                <div class="about-image-wrapper">
+                    <div class="about-image-inner">
+                        <img src="images/profile_photo.jpg" alt="최준영 프로필 사진">
+                    </div>
+                </div>
+                <div class="about-image-caption">
+                    <p class="hero-subtitle">Agent Coding Tech Leader</p>
+                    <p class="hero-tagline">C/C++/C# 전문 | 웹/데스크톱 SW 개발 | AI 에이전트 코딩</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-value">14+</div>
+                        <div class="stat-label">년 경력</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">30+</div>
+                        <div class="stat-label">프로젝트</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">7+</div>
+                        <div class="stat-label">년 EG-BIM</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content fade-in">
+                <h3>SW 개발 전문가 & AI 코딩 실무자</h3>
+                <p>
+                    14년간 <strong>웹, 윈도우용 데스크톱 영역을 넘나들며 소프트웨어 개발</strong>을 수행해왔습니다.
+                    삼성전자 반도체 공장, 현대제철, 현대글로비스 등 대기업 프로젝트를 수행하며
+                    <strong>장비와 소프트웨어가 만나는 접점</strong>에서 실무 경험을 쌓았습니다.
+                </p>
+                <p>
+                    현재는 외산 SW(Bentley, Autodesk)를 대체하는 국산 CAD/BIM 솔루션 <strong>EG-BIM</strong> 개발을 책임지고 있습니다.
+                    <strong>C++ 엔진</strong>과 <strong>C# WPF UI</strong>를 결합한 하이브리드 아키텍처를 설계하고,
+                    Three.js 기반 3D 시각화, Kafka 실시간 협업 기능까지 직접 구현했습니다.
+                </p>
+                <p>
+                    <strong>AI 에이전트 코딩</strong>을 실무에 도입하여 써드파티 연동 개발 시간을 단축하고,
+                    개인 프로젝트에서는 <strong>AI 기반 TDD</strong>로 Unit 테스트 856건, E2E 테스트 117건을 달성했습니다.
+                    커스텀 AI 에이전트 15종을 직접 구성하여 개발 생산성을 극대화하고 있습니다.
+                </p>
+                <p>
+                    한미반도체 AI연구본부에서 <strong>반도체 장비 소프트웨어 개발 역량</strong>과
+                    <strong>AI 활용 개발 경험</strong>을 바탕으로 기여하고자 합니다.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-header">
+            <h2>Technical Skills</h2>
+            <p>핵심 기술 역량</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card fade-in">
+                <h3>Applications</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag highlight">C++</span>
+                    <span class="skill-tag highlight">C#</span>
+                    <span class="skill-tag highlight">WPF</span>
+                    <span class="skill-tag">MFC</span>
+                    <span class="skill-tag">WinForm</span>
+                    <span class="skill-tag">Boost</span>
+                </div>
+            </div>
+            <div class="skill-card fade-in">
+                <h3>Communication</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag highlight">OPC</span>
+                    <span class="skill-tag highlight">Modbus</span>
+                    <span class="skill-tag">Serial (232/485)</span>
+                    <span class="skill-tag">TCP/IP</span>
+                    <span class="skill-tag">RTSP</span>
+                </div>
+            </div>
+            <div class="skill-card fade-in">
+                <h3>Database</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag highlight">MS-SQL</span>
+                    <span class="skill-tag highlight">Oracle</span>
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">SQLite</span>
+                </div>
+            </div>
+            <div class="skill-card featured-ai fade-in">
+                <span class="ai-featured-badge">AI CORE</span>
+                <h3>AI & Automation</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag highlight">Claude AI</span>
+                    <span class="skill-tag highlight">Agent Coding</span>
+                    <span class="skill-tag highlight">Prompt Engineering</span>
+                    <span class="skill-tag">AI TDD</span>
+                </div>
+            </div>
+            <div class="skill-card fade-in">
+                <h3>HMI & Control</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">PcVue</span>
+                    <span class="skill-tag">싸이몬</span>
+                    <span class="skill-tag">PLC</span>
+                    <span class="skill-tag">아두이노</span>
+                </div>
+            </div>
+            <div class="skill-card fade-in">
+                <h3>Web & Tools</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Three.js</span>
+                    <span class="skill-tag highlight">Visual Studio</span>
+                    <span class="skill-tag">Git</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-header">
+            <h2>Projects</h2>
+            <p>주요 프로젝트 및 성과</p>
+        </div>
+        <div class="projects-grid">
+            <!-- AI Projects -->
+            <div class="project-card ai-powered fade-in">
+                <div class="project-image" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                    <span style="font-size: 4rem; color: white;">🌐</span>
+                </div>
+                <div class="project-content">
+                    <div class="project-badges">
+                        <span class="project-badge badge-ai">AI 100% 개발</span>
+                        <span class="project-badge badge-period">2025 ~ 진행중</span>
+                    </div>
+                    <h3>Sudapapa Dev — 개인 홈페이지</h3>
+                    <p>Claude AI가 설계/코딩/배포 전 과정을 수행한 개인 개발 프로젝트 소개 홈페이지</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Astro</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">GSAP</span>
+                        <span class="tech-badge">Cloudflare Pages</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>모던 글래스모피즘 디자인</li>
+                        <li>다크/라이트 테마 지원</li>
+                        <li>GSAP 기반 스크롤 애니메이션</li>
+                    </ul>
+                    <a href="https://369e3faf.junyoung.pages.dev/" target="_blank" class="project-link">
+                        사이트 방문 →
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card ai-powered fade-in">
+                <div class="project-image" style="background: linear-gradient(135deg, #11998e, #38ef7d);">
+                    <span style="font-size: 4rem; color: white;">📅</span>
+                </div>
+                <div class="project-content">
+                    <div class="project-badges">
+                        <span class="project-badge badge-ai">AI 100% 개발</span>
+                        <span class="project-badge badge-period">2025 ~ 진행중</span>
+                    </div>
+                    <h3>Sudapapa Diary — 데스크탑 위젯 앱</h3>
+                    <p>Claude AI가 설계/계획/코딩/테스트 전 과정을 수행, 본인은 검토 역할</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Electron 39.x</span>
+                        <span class="tech-badge">JavaScript ES2023</span>
+                        <span class="tech-badge">SQLite</span>
+                        <span class="tech-badge">Claude AI</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>7종 위젯 구현 (캘린더, 타임라인 등)</li>
+                        <li>Unit 테스트 856건 / E2E 테스트 117건 통과</li>
+                        <li>커스텀 AI 에이전트 15종 구성</li>
+                        <li>Google Calendar 양방향 동기화</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- EG-BIM -->
+            <div class="project-card featured fade-in">
+                <div class="project-image" style="background: linear-gradient(135deg, #f97316, #ea580c);">
+                    <span style="font-size: 4rem; color: white;">🏗️</span>
+                </div>
+                <div class="project-content">
+                    <div class="project-badges">
+                        <span class="project-badge badge-role">개발 총괄</span>
+                        <span class="project-badge badge-ai">AI 도입</span>
+                        <span class="project-badge badge-period">2017 ~ 현재 (7년+)</span>
+                    </div>
+                    <h3>EG-BIM — 국산 CAD/BIM 솔루션</h3>
+                    <p>오토캐드 대체 국산 독자 BIM 캐드 프로그램 개발</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">C# WPF</span>
+                        <span class="tech-badge">C++</span>
+                        <span class="tech-badge">MFC</span>
+                        <span class="tech-badge">Three.js</span>
+                        <span class="tech-badge">Kafka</span>
+                        <span class="tech-badge">Node.js</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>C++ 엔진 + WPF UI 결합 아키텍처</li>
+                        <li>BIM 정보저장 및 3D 모델 파일 포맷 자체 개발</li>
+                        <li>외산 SW(벤틀리, 오토데스크) 대체 — 라이선스 비용 절감</li>
+                        <li>AI 에이전트 코딩 도입으로 생산성 향상</li>
+                    </ul>
+                    <a href="https://www.eg-bim.co.kr" target="_blank" class="project-link">
+                        공식 홈페이지 →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Samsung S1 SVMS -->
+            <div class="project-card fade-in">
+                <div class="project-image" style="background: linear-gradient(135deg, #3498db, #2980b9);">
+                    <span style="font-size: 4rem; color: white;">📹</span>
+                </div>
+                <div class="project-content">
+                    <div class="project-badges">
+                        <span class="project-badge badge-role">개발</span>
+                        <span class="project-badge badge-period">2016.12 ~ 2017.08</span>
+                    </div>
+                    <h3>삼성 에스원 영상관리(SVMS) 시스템</h3>
+                    <p>32Ch, 4K 지원 영상관리 메인 프로그램 및 RTSP 클라이언트 개발</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">C#</span>
+                        <span class="tech-badge">WPF</span>
+                        <span class="tech-badge">C++ (Boost)</span>
+                        <span class="tech-badge">RTSP</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>32채널 동시 지원, 4K 해상도</li>
+                        <li>실시간 RTSP 스트리밍 클라이언트</li>
+                        <li>다운로드 매니저 및 레코드 뷰어</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Samsung Smart City -->
+            <div class="project-card fade-in">
+                <div class="project-image" style="background: linear-gradient(135deg, #2c3e50, #34495e);">
+                    <span style="font-size: 4rem; color: white;">🏭</span>
+                </div>
+                <div class="project-content">
+                    <div class="project-badges">
+                        <span class="project-badge badge-role">PL</span>
+                        <span class="project-badge badge-period">2014.02 ~ 2014.08</span>
+                    </div>
+                    <h3>구미 삼성전자 스마트시티 통합시스템</h3>
+                    <p>1캠퍼스, 2캠퍼스 시스템 통합 및 통신 모듈 설계</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">HMI</span>
+                        <span class="tech-badge">Modbus</span>
+                        <span class="tech-badge">OPC</span>
+                        <span class="tech-badge">Serial</span>
+                        <span class="tech-badge">PLC</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>프로젝트 업무 프로세스 정립</li>
+                        <li>통신 모듈 설계 및 개발</li>
+                        <li>실시간 설비 모니터링 시스템</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Hyundai Glovis -->
+            <div class="project-card fade-in">
+                <div class="project-image" style="background: linear-gradient(135deg, #e74c3c, #c0392b);">
+                    <span style="font-size: 4rem; color: white;">🚗</span>
+                </div>
+                <div class="project-content">
+                    <div class="project-badges">
+                        <span class="project-badge badge-role">총괄</span>
+                        <span class="project-badge badge-period">2015.07 ~ 2015.12</span>
+                    </div>
+                    <h3>현대 미주 글로비스 치장장 관리 시스템</h3>
+                    <p>해외 프로젝트 — 알라바마/조지아 출하차량 재고관리</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Embedded Window</span>
+                        <span class="tech-badge">C#</span>
+                        <span class="tech-badge">WinForm</span>
+                        <span class="tech-badge">OracleDB</span>
+                        <span class="tech-badge">GPS</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>PDA GPS 시스템으로 주차장 구역 자동 인식</li>
+                        <li>SW 설계서 ~ 인수문서 전체 산출물 작성</li>
+                        <li>영어 문서 작성 및 클라이언트 커뮤니케이션</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Section -->
+    <section id="career">
+        <div class="section-header">
+            <h2>Career</h2>
+            <p>경력 및 이력</p>
+        </div>
+        <div class="career-timeline">
+            <div class="career-item fade-in">
+                <div class="career-content">
+                    <h4>(주)한맥기술</h4>
+                    <div class="period">2017.08 ~ 현재</div>
+                    <div class="position">책임 연구원 | EG-BIM 개발</div>
+                    <p>국산 CAD/BIM 솔루션 EG-BIM 개발 총괄, 17개 프로젝트 수행</p>
+                </div>
+                <div class="career-dot"></div>
+            </div>
+            <div class="career-item fade-in">
+                <div class="career-content">
+                    <h4>(주)네이버시스템</h4>
+                    <div class="period">2013.03 ~ 2017.08</div>
+                    <div class="position">대리 | 제어정보팀 선임</div>
+                    <p>삼성전자, 현대제철, 현대글로비스 등 대기업 프로젝트 수행 (9개 프로젝트)</p>
+                </div>
+                <div class="career-dot"></div>
+            </div>
+            <div class="career-item fade-in">
+                <div class="career-content">
+                    <h4>대성산업(주)</h4>
+                    <div class="period">2011.12 ~ 2013.02</div>
+                    <div class="position">사원 | 오토메이션사업팀</div>
+                    <p>물류자동화 시스템 개발, ETRI/카이스트 공동연구 참여</p>
+                </div>
+                <div class="career-dot"></div>
+            </div>
+            <div class="career-item fade-in">
+                <div class="career-content">
+                    <h4>에너지움(주)</h4>
+                    <div class="period">2010.06 ~ 2011.01</div>
+                    <div class="position">사원 | 연구개발팀</div>
+                    <p>임베디드 SW 개발</p>
+                </div>
+                <div class="career-dot"></div>
+            </div>
+        </div>
+
+        <!-- Certifications -->
+        <div class="section-header" style="margin-top: 4rem;">
+            <h2>Certifications</h2>
+            <p>자격증</p>
+        </div>
+        <div class="cert-grid">
+            <div class="cert-card fade-in">
+                <div class="cert-icon">📜</div>
+                <h4>정보처리기사</h4>
+                <p>2014.08.22 취득</p>
+            </div>
+            <div class="cert-card fade-in">
+                <div class="cert-icon">🎯</div>
+                <h4>PMP</h4>
+                <p>2016.10.31 취득<br>(~2028.10.31 유효)</p>
+            </div>
+            <div class="cert-card fade-in">
+                <div class="cert-icon">🐧</div>
+                <h4>리눅스마스터 2급</h4>
+                <p>2016.12.16 취득</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-header">
+            <h2>Contact</h2>
+            <p>연락처</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-card fade-in">
+                <div class="contact-icon">📱</div>
+                <h4>Phone</h4>
+                <a href="tel:010-3156-1423">010-3156-1423</a>
+            </div>
+            <div class="contact-card fade-in">
+                <div class="contact-icon">📧</div>
+                <h4>Email</h4>
+                <a href="mailto:engineer_cjy@naver.com">engineer_cjy@naver.com</a>
+            </div>
+            <div class="contact-card fade-in">
+                <div class="contact-icon">📍</div>
+                <h4>Location</h4>
+                <p>경기도 부천시</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 최준영. All rights reserved.</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" onclick="scrollToTop()">↑</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
